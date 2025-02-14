@@ -7,7 +7,8 @@ import * as path from 'path';
 import { Construct } from 'constructs';
 
 export class AutoStopStack extends cdk.Stack {
-  constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
+  // constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
+  constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
     // Lambda関数の作成
